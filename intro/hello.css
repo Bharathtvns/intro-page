@@ -70,7 +70,13 @@ ul li a:hover{
     color: #ff7200;
 }
 
-.search{
+.search1{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.search2{
     width: 330px;
     float: left;
     margin-left: 270px;
@@ -96,12 +102,12 @@ ul li a:hover{
     margin-left: 150px;
 }
 .btn{
-    width: 100px;
+    width: 150px;
     height: 40px;
     background: #ff7200;
-    border: 2px solid #ff7200;
-    margin-top: 13px;
+    margin-top: 0px;
     color: #fff;
+    border: #ff7200;
     font-size: 15px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -110,7 +116,10 @@ ul li a:hover{
 
 }
 .btn:hover{
-    color: #000;
+    color: orange;
+    background-color: white;
+    transition: 0.5s;
+    font-size: medium;
 }
 
 .btn:focus{
