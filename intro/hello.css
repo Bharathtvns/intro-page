@@ -374,3 +374,7 @@ ul li a:hover{
     background-color: rgba(239, 237, 237, 0.439);
 
 }
+.contact{
+    padding : 5%;
+    background-color:  rgba(239, 237, 237, 1);
+}
