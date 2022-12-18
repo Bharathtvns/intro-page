@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Depression and Anxiety</title>
+    <title>Depression & Anxiety</title>
     <link rel="stylesheet" href="hello.css">
     <script src="hello.js"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <style>
+        .social-icons a {
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #e6e3e3;
+margin: 20px 10px;
+border-radius: 50%;
+        }
+.social-icons {
+	display: flex;
+    justify-content: end;
+    padding-right: 100px;
+  }
+  .social-icons i,
+  .social i {
+	color: #000000;
+  }
+  .social-icons a:hover {
+	background-color: #000000;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	transition: all ease 0.5s;
+  }
+  .social-icons a:hover i,
+  .social a:hover i {
+	color: #ffffff;
+	transition: all ease 0.5s;
+  }
+  .social-icons a:active {
+	background-color: blue;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	transition: all ease 0.5s;
+  }
+
+</style>
 </head>
 <body>
 
@@ -19,7 +57,7 @@
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#depression">DEPRESSION</a></li>
                     <li><a href="#anxiety">ANXIETY</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                     <li><a href="https://depression-assessment.netlify.app/" style="margin-top: 0px;"> <button class="btn">Depression Test</button></a></li>
                 <li><a href="https://anxiety-assessment.netlify.app/"  style="margin-top: 0px;"><span> <button class="btn">Anxiety Test</button></a></span></li>
                 </ul>
@@ -32,11 +70,9 @@
         </div> 
         <div class="content">
             <h1>This page tells us about <br><span>Depression and</span> <br>Anxiety</h1>
-            <br>
-            <br>
-            <p class="par">Before taking the exam, you may study more about depression and anxiety on this website. This page contains information about the symptoms, causes, and some treatments used to cure depression and anxiety . After taking the test, suggestions and treatments will be made based on your exam score.</p>
+            <p class="par">Before giving the test you can learn about Depression and anxiety in a detailed manner through this webpage <br> Here is a test to learn about you depression scale</p>
 
-            
+                <button class="cn"><a href="#">Attempt a test</a></button>
 
                 
                     </div>
@@ -52,7 +88,7 @@
     <!-- Photo Grid -->
   <div class="row"> 
     <div class="column">
-      <img src="./veekySir.jpeg" style="width:60% ;height:80% margin-bottom 30px;">
+      <img src="/veekySir.jpeg" style="width:60% ;height:80% margin-bottom 30px;">
       <p class="veekytext">Hello Veeky Baths here, ARC head and IC of Cognitive Neuroscience course</p>
     </div>
     
@@ -197,6 +233,20 @@ Panic episodes happen often and without warning in people with panic disorder. E
             <br>
             <p>Your worries may not go away on their own, and they may get worse over time if you don't seek help. See your doctor or a mental health provider before your anxiety gets worse. It's easier to treat if you get help early.</p>
 
+    </div>
+    <div class="contact reveal" id="contact " >
+        <h1 > For any kind of queries feel free to contact</h1>
+        <br>
+        <h2><p>Contact me through :- <a href="mailto:bharath.tvns@gmail.com" >Mail me</a></p></h2>
+        <br>
+        <br>
+        
+        <div class="social-icons" >
+            <a href="https://www.facebook.com/bharath.tvns" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://wa.me/919347990395?text=%22hi%22" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/me_bharath_tvns/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/Bharathtvns" target="_blank"><i class="fab fa-git hub"></i></a>
+        </div>
     </div>
 </body>
 </html>
